@@ -1,4 +1,5 @@
 import type { ProjectItem } from "../types/portfolio";
+import { Card } from "./Card";
 
 type ProjectCardLabels = {
   highlight: string;
@@ -14,7 +15,7 @@ type ProjectCardProps = {
 
 export function ProjectCard({ project, labels }: ProjectCardProps) {
   return (
-    <article className="group flex flex-col justify-between rounded-2xl border-4 border-dashed border-purple-200 bg-purple-200/40 p-5 transition hover:border-purple-300 hover:bg-purple-200">
+    <Card>
       <div>
         <header className="flex items-start justify-between gap-4">
           <h3 className="text-md font-alfa text-pink-400">
@@ -71,6 +72,6 @@ export function ProjectCard({ project, labels }: ProjectCardProps) {
           )}
         </div>
       </div>
-    </article>
+    </Card>
   );
 }
