@@ -14,30 +14,30 @@ type ProjectCardProps = {
 
 export function ProjectCard({ project, labels }: ProjectCardProps) {
   return (
-    <article className="group flex flex-col justify-between rounded-2xl border border-slate-800 bg-slate-900/40 p-5 transition hover:border-accent hover:bg-slate-900">
+    <article className="group flex flex-col justify-between rounded-2xl border-4 border-dashed border-purple-200 bg-purple-200/40 p-5 transition hover:border-purple-300 hover:bg-purple-200">
       <div>
         <header className="flex items-start justify-between gap-4">
-          <h3 className="text-base font-semibold text-slate-50">
+          <h3 className="text-md font-alfa text-pink-400">
             {project.name}
           </h3>
           <div className="flex gap-1">
             {project.highlight && (
-              <span className="rounded-full border border-accent/40 bg-accent/10 px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-accent">
+              <span className="font-mono rounded-full border border-cyan-300/40 bg-cyan-300/10 px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-cyan-500">
                 {labels.highlight}
               </span>
             )}
             {project.wip && (
-              <span className="rounded-full border border-yellow-300/50 bg-yellow-400/10 px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-yellow-300">
+              <span className="font-mono rounded-full border border-yellow-300/50 bg-yellow-300/10 px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-yellow-500">
                 {labels.wip}
               </span>
             )}
           </div>
         </header>
-        <p className="mt-3 text-sm text-slate-300">{project.description}</p>
+        <p className="mt-3 text-sm">{project.description}</p>
       </div>
 
       <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
-        <ul className="flex flex-wrap gap-2 text-[0.7rem] text-slate-300">
+        <ul className="flex flex-wrap gap-2 text-[0.7rem] ">
           {project.technologies.map((tech) => (
             <li
               key={tech}

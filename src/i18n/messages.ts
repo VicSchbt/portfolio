@@ -50,7 +50,7 @@ export const messages: Record<
       ]
     },
     projects: {
-      heading: "Selected work",
+      heading: "Some of my personal projects",
       description:
         "A few projects that represent how I think about product, design, and engineering.",
       highlightLabel: "Highlight",
@@ -84,7 +84,7 @@ export const messages: Record<
       ]
     },
     projects: {
-      heading: "Projets sélectionnés",
+      heading: "Quelques projets personnels",
       description:
         "Quelques projets qui reflètent ma manière de penser produit, design et ingénierie.",
       highlightLabel: "À mettre en avant",

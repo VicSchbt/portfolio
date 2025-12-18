@@ -32,6 +32,7 @@ export default {
           "Consolas",
           "monospace",
         ],
+        alfa: ["AlfaSlabOne", "system-ui", "ui-serif", "serif"],
       },
       boxShadow: {
         "soft-glow": "0 0 40px rgba(56, 189, 248, 0.3)",

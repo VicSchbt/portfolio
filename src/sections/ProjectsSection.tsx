@@ -18,7 +18,7 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
       <header className="space-y-2">
         <h2
           id="projects-heading"
-          className="text-xl font-semibold tracking-tight text-slate-50 md:text-2xl"
+          className="text-2xl font-yellowtail text-pink-500 tracking-tight md:text-4xl"
         >
           {t.projects.heading}
         </h2>
