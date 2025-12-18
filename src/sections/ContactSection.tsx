@@ -13,7 +13,6 @@ export function ContactSection({ contact }: ContactSectionProps) {
       <header className="space-y-2">
         <h2
           id="contact-heading"
-          className="text-xl font-semibold tracking-tight text-slate-50 md:text-2xl"
         >
           {t.contact.heading}
         </h2>

@@ -17,7 +17,6 @@ export const ExperienceSection = ({ experience }: ExperienceSectionProps) => {
       <header className="space-y-2">
         <h2
           id="experience-heading"
-          className="text-xl font-semibold tracking-tight text-slate-50 md:text-2xl"
         >
           {t.experience.heading}
         </h2>

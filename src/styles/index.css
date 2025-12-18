@@ -62,3 +62,7 @@ body {
   background-size: 200px 200px; /* or smaller for finer grain */
   @apply text-slate-800 font-mono;
 }
+
+section h2 {
+  @apply text-2xl font-yellowtail text-pink-500 tracking-tight md:text-4xl
+}
