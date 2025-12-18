@@ -1,10 +1,13 @@
 import type { ProjectItem } from "../types/portfolio";
+import { useTranslations } from "../i18n/useTranslations";
 
 type ProjectsSectionProps = {
   projects: ProjectItem[];
 };
 
 export function ProjectsSection({ projects }: ProjectsSectionProps) {
+  const t = useTranslations();
+
   return (
     <section id="projects" aria-labelledby="projects-heading" className="space-y-6">
       <header className="space-y-2">
@@ -12,10 +15,10 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
           id="projects-heading"
           className="text-xl font-semibold tracking-tight text-slate-50 md:text-2xl"
         >
-          Selected work
+          {t.projects.heading}
         </h2>
         <p className="max-w-2xl text-sm text-slate-400">
-          A few projects that represent how I think about product, design, and engineering.
+          {t.projects.description}
         </p>
       </header>
 
@@ -31,12 +34,12 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
                 <div className="flex gap-1">
                   {project.highlight && (
                     <span className="rounded-full border border-accent/40 bg-accent/10 px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-accent">
-                      Highlight
+                      {t.projects.highlightLabel}
                     </span>
                   )}
                   {project.wip && (
                     <span className="rounded-full border border-yellow-300/50 bg-yellow-400/10 px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-[0.15em] text-yellow-300">
-                      WIP
+                      {t.projects.wipLabel}
                     </span>
                   )}
                 </div>
@@ -66,7 +69,7 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
                     rel="noreferrer"
                     className="hover:text-accentMuted transition-colors"
                   >
-                    Live
+                    {t.projects.liveLabel}
                   </a>
                 )}
                 {project.repoUrl && (
@@ -76,7 +79,7 @@ export function ProjectsSection({ projects }: ProjectsSectionProps) {
                     rel="noreferrer"
                     className="hover:text-accentMuted transition-colors"
                   >
-                    Code
+                    {t.projects.codeLabel}
                   </a>
                 )}
               </div>

@@ -1,77 +1,157 @@
 {
   "about": {
-    "name": "Victoire Schubert",
-    "title": "Software Engineer • Frontend & Creative Development",
-    "summary": "I’m a French software engineer who builds thoughtful, human-centered digital experiences. With strong expertise in frontend development and a growing focus on creative coding (Three.js, WebGL, animations), I love turning ideas into intuitive, elegant interfaces. I value clean architecture, collaboration with design teams, and crafting products that are both useful and a pleasure to use."
+    "en": {
+      "name": "Victoire Schubert",
+      "title": "Software Engineer • Frontend & Creative Development",
+      "summary": "I’m a French software engineer who builds thoughtful, human-centered digital experiences. With strong expertise in frontend development and a growing focus on creative coding (Three.js, WebGL, animations), I love turning ideas into intuitive, elegant interfaces. I value clean architecture, collaboration with design teams, and crafting products that are both useful and a pleasure to use."
+    },
+    "fr": {
+      "name": "Victoire Schubert",
+      "title": "Ingénieure logiciel • Frontend & Creative Development",
+      "summary": "Je suis une ingénieure logicielle française qui conçoit des expériences numériques centrées sur l’humain. Spécialisée en développement frontend et de plus en plus orientée vers le creative coding (Three.js, WebGL, animations), j’aime transformer des idées en interfaces intuitives et élégantes. J’attache beaucoup d’importance à une architecture propre, à la collaboration avec les équipes design et à la création de produits à la fois utiles et agréables à utiliser."
+    }
   },
 
-  "experience": [
-    {
-      "id": "exp-1",
-      "company": "Decathlon Digital",
-      "role": "Frontend Engineer",
-      "location": "Lille, France",
-      "period": "2023 — 2025",
-      "summary": "Frontend engineer within a cross-functional product team, contributing to web applications used across the Decathlon ecosystem. I collaborate closely with designers, engineers, and product stakeholders to deliver reliable, accessible interfaces. My work includes UI implementation, improving developer experience, and participating actively in the team’s tech watch and knowledge-sharing culture.",
-      "technologies": [
-        "TypeScript",
-        "Svelte",
-        "CSS / SCSS",
-        "CI/CD"
-      ]
-    },
-    {
-      "id": "exp-2",
-      "company": "DGFiP (Direction Générale des Finances Publiques)",
-      "role": "Software Engineer (Apprenticeship)",
-      "location": "France",
-      "period": "2020 — 2023",
-      "summary": "Designed and developed internal tools within a large-scale governmental environment. Learned professional engineering workflows while contributing production-ready code. Reinforced my foundation in software architecture, testing, documentation, and long-term maintainability.",
-      "technologies": [
-        "Python",
-        "Web Development",
-        "Unity",
-        "C#"
-      ]
-    }
-  ],
-
-  "projects": [
-    {
-      "id": "proj-1",
-      "name": "Tempo Pose",
-      "description": "A figure-drawing timer application built for artists. Simple, distraction-free interface with custom session presets, keyboard shortcuts, and a smooth, elegant UI. Designed to help creatives practice gesture drawing and maintain flow.",
-      "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
-      "url": "",
-      "repoUrl": "",
-      "highlight": true,
-      "wip": false
-    },
-    {
-      "id": "proj-2",
-      "name": "Expense Tracker",
-      "description": "A full-stack personal finance tracker designed as a real-world engineering exercise. Includes a Supabase-hosted PostgreSQL database, a NestJS-style backend structure, and a clean, modern frontend with authentication, categories, transaction logging, and analytics.",
-      "technologies": ["Next.js", "TypeScript", "Supabase", "Prisma", "Bruno (API tests)"],
-      "url": "",
-      "repoUrl": "",
-      "highlight": false,
-      "wip": true
-    }
-  ],
-
-  "contact": {
-    "email": "victoire.schubert@gmail.com",
-    "location": "Lille, France",
-    "availability": "Open to freelance opportunities (Frontend, Creative Development, Web Animation, Next.js).",
-    "social": [
+  "experience": {
+    "en": [
       {
-        "label": "GitHub",
-        "url": "https://github.com/VicSchbt"
+        "id": "exp-1",
+        "company": "Decathlon Digital",
+        "role": "Frontend Engineer",
+        "location": "Lille, France",
+        "period": "2023 — 2025",
+        "summary": "Frontend engineer within a cross-functional product team, contributing to web applications used across the Decathlon ecosystem. I collaborate closely with designers, engineers, and product stakeholders to deliver reliable, accessible interfaces. My work includes UI implementation, improving developer experience, and participating actively in the team’s tech watch and knowledge-sharing culture.",
+        "technologies": [
+          "TypeScript",
+          "Svelte",
+          "CSS / SCSS",
+          "CI/CD"
+        ]
       },
       {
-        "label": "LinkedIn",
-        "url": "https://www.linkedin.com/in/victoire-schubert/"
+        "id": "exp-2",
+        "company": "DGFiP (Direction Générale des Finances Publiques)",
+        "role": "Software Engineer (Apprenticeship)",
+        "location": "France",
+        "period": "2020 — 2023",
+        "summary": "Designed and developed internal tools within a large-scale governmental environment. Learned professional engineering workflows while contributing production-ready code. Reinforced my foundation in software architecture, testing, documentation, and long-term maintainability.",
+        "technologies": [
+          "Python",
+          "Web Development",
+          "Unity",
+          "C#"
+        ]
+      }
+    ],
+    "fr": [
+      {
+        "id": "exp-1",
+        "company": "Decathlon Digital",
+        "role": "Ingénieure Frontend",
+        "location": "Lille, France",
+        "period": "2023 — 2025",
+        "summary": "Ingénieure frontend au sein d’une équipe produit pluridisciplinaire, je contribue aux applications web utilisées dans l’écosystème Decathlon. Je travaille en étroite collaboration avec les designers, développeurs et parties prenantes produit pour livrer des interfaces fiables et accessibles. Mon travail couvre l’implémentation UI, l’amélioration de l’expérience développeur et la participation active à la veille technologique et au partage de connaissances.",
+        "technologies": [
+          "TypeScript",
+          "Svelte",
+          "CSS / SCSS",
+          "CI/CD"
+        ]
+      },
+      {
+        "id": "exp-2",
+        "company": "DGFiP (Direction Générale des Finances Publiques)",
+        "role": "Ingénieure Logiciel (Apprentissage)",
+        "location": "France",
+        "period": "2020 — 2023",
+        "summary": "Conception et développement d’outils internes dans un environnement étatique à grande échelle. J’y ai appris les méthodes de travail professionnelles tout en livrant du code prêt pour la production. Cette expérience a renforcé mes bases en architecture logicielle, tests, documentation et maintenabilité à long terme.",
+        "technologies": [
+          "Python",
+          "Développement Web",
+          "Unity",
+          "C#"
+        ]
       }
     ]
+  },
+
+  "projects": {
+    "en": [
+      {
+        "id": "proj-1",
+        "name": "Tempo Pose",
+        "description": "A figure-drawing timer application built for artists. Simple, distraction-free interface with custom session presets, keyboard shortcuts, and a smooth, elegant UI. Designed to help creatives practice gesture drawing and maintain flow.",
+        "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
+        "url": "",
+        "repoUrl": "",
+        "highlight": true,
+        "wip": false
+      },
+      {
+        "id": "proj-2",
+        "name": "Expense Tracker",
+        "description": "A full-stack personal finance tracker designed as a real-world engineering exercise. Includes a Supabase-hosted PostgreSQL database, a NestJS-style backend structure, and a clean, modern frontend with authentication, categories, transaction logging, and analytics.",
+        "technologies": ["Next.js", "TypeScript", "Supabase", "Prisma", "Bruno (API tests)"],
+        "url": "",
+        "repoUrl": "",
+        "highlight": false,
+        "wip": true
+      }
+    ],
+    "fr": [
+      {
+        "id": "proj-1",
+        "name": "Tempo Pose",
+        "description": "Une application de timer pour le dessin de modèle vivant, pensée pour les artistes. Interface simple et sans distraction, avec des présélections de sessions, des raccourcis clavier et une UI fluide et élégante. Conçue pour aider les créatifs à pratiquer le croquis rapide et à rester dans le flow.",
+        "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
+        "url": "",
+        "repoUrl": "",
+        "highlight": true,
+        "wip": false
+      },
+      {
+        "id": "proj-2",
+        "name": "Expense Tracker",
+        "description": "Une application de suivi de dépenses full-stack, pensée comme un exercice d’ingénierie réaliste. Base PostgreSQL hébergée sur Supabase, backend structuré façon NestJS et frontend moderne avec authentification, catégories, enregistrement des transactions et vues analytiques.",
+        "technologies": ["Next.js", "TypeScript", "Supabase", "Prisma", "Bruno (tests d’API)"],
+        "url": "",
+        "repoUrl": "",
+        "highlight": false,
+        "wip": true
+      }
+    ]
+  },
+
+  "contact": {
+    "en": {
+      "email": "victoire.schubert@gmail.com",
+      "location": "Lille, France",
+      "availability": "Open to freelance opportunities (Frontend, Creative Development, Web Animation, Next.js).",
+      "social": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/VicSchbt"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/victoire-schubert/"
+        }
+      ]
+    },
+    "fr": {
+      "email": "victoire.schubert@gmail.com",
+      "location": "Lille, France",
+      "availability": "Disponible pour des missions freelance (Frontend, Creative Development, animation web, Next.js).",
+      "social": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/VicSchbt"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/victoire-schubert/"
+        }
+      ]
+    }
   }
 }

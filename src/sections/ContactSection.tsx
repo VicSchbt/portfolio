@@ -1,10 +1,13 @@
 import type { Contact } from "../types/portfolio";
+import { useTranslations } from "../i18n/useTranslations";
 
 type ContactSectionProps = {
   contact: Contact;
 };
 
 export function ContactSection({ contact }: ContactSectionProps) {
+  const t = useTranslations();
+
   return (
     <section id="contact" aria-labelledby="contact-heading" className="space-y-6">
       <header className="space-y-2">
@@ -12,10 +15,10 @@ export function ContactSection({ contact }: ContactSectionProps) {
           id="contact-heading"
           className="text-xl font-semibold tracking-tight text-slate-50 md:text-2xl"
         >
-          Let&apos;s work together
+          {t.contact.heading}
         </h2>
         <p className="max-w-2xl text-sm text-slate-400">
-          {contact.availability}
+          {t.contact.ctaPrefix}
         </p>
       </header>
 
@@ -25,7 +28,7 @@ export function ContactSection({ contact }: ContactSectionProps) {
             Based in <span className="font-medium text-slate-100">{contact.location}</span>
           </p>
           <p>
-            Prefer email?{" "}
+            {t.contact.emailIntro}{" "}
             <a
               href={`mailto:${contact.email}`}
               className="font-medium text-accent hover:text-accentMuted transition-colors"

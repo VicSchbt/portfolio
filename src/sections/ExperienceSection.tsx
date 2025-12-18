@@ -1,10 +1,13 @@
 import type { ExperienceItem } from "../types/portfolio";
+import { useTranslations } from "../i18n/useTranslations";
 
 type ExperienceSectionProps = {
   experience: ExperienceItem[];
 };
 
 export function ExperienceSection({ experience }: ExperienceSectionProps) {
+  const t = useTranslations();
+
   return (
     <section
       id="experience"
@@ -16,11 +19,10 @@ export function ExperienceSection({ experience }: ExperienceSectionProps) {
           id="experience-heading"
           className="text-xl font-semibold tracking-tight text-slate-50 md:text-2xl"
         >
-          Experience
+          {t.experience.heading}
         </h2>
         <p className="max-w-2xl text-sm text-slate-400">
-          A snapshot of the roles where I grew my craft, collaborated with teams, and shipped
-          meaningful work.
+          {t.experience.description}
         </p>
       </header>
 

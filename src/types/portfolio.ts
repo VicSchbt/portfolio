@@ -1,3 +1,5 @@
+import type { SupportedLanguage } from "../i18n/types";
+
 export type ExperienceItem = {
   id: string;
   company: string;
@@ -35,11 +37,14 @@ export type About = {
   summary: string;
 };
 
+export type Localized<T> = Record<SupportedLanguage, T>;
+
 export type PortfolioData = {
-  about: About;
-  experience: ExperienceItem[];
-  projects: ProjectItem[];
-  contact: Contact;
+  about: Localized<About>;
+  experience: Localized<ExperienceItem[]>;
+  projects: Localized<ProjectItem[]>;
+  contact: Localized<Contact>;
 };
+
 
 

@@ -1,10 +1,13 @@
 import type { About } from "../types/portfolio";
+import { useTranslations } from "../i18n/useTranslations";
 
 type HeroSectionProps = {
   about: About;
 };
 
 export function HeroSection({ about }: HeroSectionProps) {
+  const t = useTranslations();
+
   return (
     <section
       aria-labelledby="hero-title"
@@ -27,12 +30,12 @@ export function HeroSection({ about }: HeroSectionProps) {
 
       <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-6 shadow-soft-glow backdrop-blur">
         <p className="text-xs font-medium uppercase tracking-[0.2em] text-slate-400">
-          Focus
+          {t.hero.focusLabel}
         </p>
         <ul className="mt-4 space-y-2 text-sm text-slate-200">
-          <li>Design-driven UI development</li>
-          <li>Accessible, performant web experiences</li>
-          <li>Clean, maintainable front-end architecture</li>
+          {t.hero.focusItems.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
         </ul>
       </div>
     </section>
