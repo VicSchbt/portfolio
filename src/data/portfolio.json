@@ -1,0 +1,77 @@
+{
+  "about": {
+    "name": "Victoire Schubert",
+    "title": "Software Engineer • Frontend & Creative Development",
+    "summary": "I’m a French software engineer who builds thoughtful, human-centered digital experiences. With strong expertise in frontend development and a growing focus on creative coding (Three.js, WebGL, animations), I love turning ideas into intuitive, elegant interfaces. I value clean architecture, collaboration with design teams, and crafting products that are both useful and a pleasure to use."
+  },
+
+  "experience": [
+    {
+      "id": "exp-1",
+      "company": "Decathlon Digital",
+      "role": "Frontend Engineer",
+      "location": "Lille, France",
+      "period": "2023 — 2025",
+      "summary": "Frontend engineer within a cross-functional product team, contributing to web applications used across the Decathlon ecosystem. I collaborate closely with designers, engineers, and product stakeholders to deliver reliable, accessible interfaces. My work includes UI implementation, improving developer experience, and participating actively in the team’s tech watch and knowledge-sharing culture.",
+      "technologies": [
+        "TypeScript",
+        "Svelte",
+        "CSS / SCSS",
+        "CI/CD"
+      ]
+    },
+    {
+      "id": "exp-2",
+      "company": "DGFiP (Direction Générale des Finances Publiques)",
+      "role": "Software Engineer (Apprenticeship)",
+      "location": "France",
+      "period": "2020 — 2023",
+      "summary": "Designed and developed internal tools within a large-scale governmental environment. Learned professional engineering workflows while contributing production-ready code. Reinforced my foundation in software architecture, testing, documentation, and long-term maintainability.",
+      "technologies": [
+        "Python",
+        "Web Development",
+        "Unity",
+        "C#"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "id": "proj-1",
+      "name": "Tempo Pose",
+      "description": "A figure-drawing timer application built for artists. Simple, distraction-free interface with custom session presets, keyboard shortcuts, and a smooth, elegant UI. Designed to help creatives practice gesture drawing and maintain flow.",
+      "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
+      "url": "",
+      "repoUrl": "",
+      "highlight": true,
+      "wip": false
+    },
+    {
+      "id": "proj-2",
+      "name": "Expense Tracker",
+      "description": "A full-stack personal finance tracker designed as a real-world engineering exercise. Includes a Supabase-hosted PostgreSQL database, a NestJS-style backend structure, and a clean, modern frontend with authentication, categories, transaction logging, and analytics.",
+      "technologies": ["Next.js", "TypeScript", "Supabase", "Prisma", "Bruno (API tests)"],
+      "url": "",
+      "repoUrl": "",
+      "highlight": false,
+      "wip": true
+    }
+  ],
+
+  "contact": {
+    "email": "victoire.schubert@gmail.com",
+    "location": "Lille, France",
+    "availability": "Open to freelance opportunities (Frontend, Creative Development, Web Animation, Next.js).",
+    "social": [
+      {
+        "label": "GitHub",
+        "url": "https://github.com/VicSchbt"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/victoire-schubert/"
+      }
+    ]
+  }
+}
