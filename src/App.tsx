@@ -1,6 +1,6 @@
 import portfolioData from "./data/portfolio.json";
 import type { PortfolioData } from "./types/portfolio";
-import { AppShell } from "./components/layout/AppShell";
+import { AppShell } from "./layout/AppShell";
 import { HeroSection } from "./sections/HeroSection";
 import { ProjectsSection } from "./sections/ProjectsSection";
 import { ExperienceSection } from "./sections/ExperienceSection";
@@ -24,5 +24,3 @@ function App() {
 }
 
 export default App;
-
-

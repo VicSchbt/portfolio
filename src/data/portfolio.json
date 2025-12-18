@@ -2,74 +2,72 @@
   "about": {
     "en": {
       "name": "Victoire Schubert",
+      "location": "Lille, France",
       "title": "Software Engineer • Frontend & Creative Development",
       "summary": "I’m a French software engineer who builds thoughtful, human-centered digital experiences. With strong expertise in frontend development and a growing focus on creative coding (Three.js, WebGL, animations), I love turning ideas into intuitive, elegant interfaces. I value clean architecture, collaboration with design teams, and crafting products that are both useful and a pleasure to use."
     },
     "fr": {
       "name": "Victoire Schubert",
+      "location": "Lille, France",
       "title": "Ingénieure logiciel • Frontend & Creative Development",
-      "summary": "Je suis une ingénieure logicielle française qui conçoit des expériences numériques centrées sur l’humain. Spécialisée en développement frontend et de plus en plus orientée vers le creative coding (Three.js, WebGL, animations), j’aime transformer des idées en interfaces intuitives et élégantes. J’attache beaucoup d’importance à une architecture propre, à la collaboration avec les équipes design et à la création de produits à la fois utiles et agréables à utiliser."
+      "summary": "Je suis une ingénieure logiciel française qui conçoit des expériences numériques centrées sur l’humain. Spécialisée en développement frontend et de plus en plus orientée vers le creative coding (Three.js, WebGL, animations), j’aime transformer des idées en interfaces intuitives et élégantes. J’attache beaucoup d’importance à une architecture propre, à la collaboration avec les équipes design et à la création de produits à la fois utiles et agréables à utiliser."
     }
   },
 
   "experience": {
     "en": [
       {
-        "id": "exp-1",
+        "id": "exp-decathlon",
         "company": "Decathlon Digital",
         "role": "Frontend Engineer",
         "location": "Lille, France",
-        "period": "2023 — 2025",
-        "summary": "Frontend engineer within a cross-functional product team, contributing to web applications used across the Decathlon ecosystem. I collaborate closely with designers, engineers, and product stakeholders to deliver reliable, accessible interfaces. My work includes UI implementation, improving developer experience, and participating actively in the team’s tech watch and knowledge-sharing culture.",
-        "technologies": [
-          "TypeScript",
-          "Svelte",
-          "CSS / SCSS",
-          "CI/CD"
-        ]
+        "period": "October 2023 — June 2025",
+        "summary": "As a Frontend Engineer at Decathlon Digital, I contributed to the evolution of the Customer Account area of the e-commerce platform. My work focused on maintaining and improving existing features, reducing technical debt, fixing bugs, and implementing enhancements to elevate the user experience.\n\nI also participated in cross-team initiatives, including contributing to the Women in Tech program to support diversity and inclusion within the organization. With a strong emphasis on code quality, collaboration, and thoughtful engineering practices, I helped the team deliver reliable, user-centered features.",
+        "technologies": ["TypeScript", "Svelte", "CSS / SCSS", "CI/CD"]
       },
       {
-        "id": "exp-2",
-        "company": "DGFiP (Direction Générale des Finances Publiques)",
+        "id": "exp-dgfip",
+        "company": "DGFiP (French Ministry of Finance)",
         "role": "Software Engineer (Apprenticeship)",
-        "location": "France",
-        "period": "2020 — 2023",
-        "summary": "Designed and developed internal tools within a large-scale governmental environment. Learned professional engineering workflows while contributing production-ready code. Reinforced my foundation in software architecture, testing, documentation, and long-term maintainability.",
+        "location": "Nantes, France",
+        "period": "September 2020 — September 2023",
+        "summary": "Worked within the Department of Transversal Technologies on internal tools and technical research initiatives. Strengthened foundations in web development (HTML, CSS, JavaScript) and learned frontend frameworks such as Bootstrap and Vue.js. Expanded skills into data analysis with Python, NumPy, Pandas, and data visualization tools. Contributed to a cross-platform mobile app using Flutter. For my final-year project, designed and delivered a proof-of-concept serious game on Sustainable IT, combining engineering, creativity, and educational intent.",
         "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Vue.js",
+          "Bootstrap",
           "Python",
-          "Web Development",
-          "Unity",
-          "C#"
+          "Flutter"
         ]
       }
     ],
     "fr": [
       {
-        "id": "exp-1",
+        "id": "exp-decathlon",
         "company": "Decathlon Digital",
-        "role": "Ingénieure Frontend",
+        "role": "Ingénieure Logiciel",
         "location": "Lille, France",
-        "period": "2023 — 2025",
-        "summary": "Ingénieure frontend au sein d’une équipe produit pluridisciplinaire, je contribue aux applications web utilisées dans l’écosystème Decathlon. Je travaille en étroite collaboration avec les designers, développeurs et parties prenantes produit pour livrer des interfaces fiables et accessibles. Mon travail couvre l’implémentation UI, l’amélioration de l’expérience développeur et la participation active à la veille technologique et au partage de connaissances.",
-        "technologies": [
-          "TypeScript",
-          "Svelte",
-          "CSS / SCSS",
-          "CI/CD"
-        ]
+        "period": "Octobre 2023 — Juin 2025",
+        "summary": "En tant qu’ingénieure logiciel au sein d'une équipe Front-end de Decathlon Digital, j’ai contribué à l’évolution et à l’optimisation de la section « Compte Client » de la plateforme e-commerce. Mon rôle combinait maintenance, réduction de dette technique, corrections de bugs et développement de nouvelles fonctionnalités visant à améliorer l’expérience utilisateur.\n\nJ’ai également pris part à des initiatives transverses et participé à Women in Tech, en aidant à promouvoir diversité et inclusion. Toujours orientée qualité du code et collaboration, j’ai contribué au succès de l’équipe et aux objectifs globaux du produit.",
+        "technologies": ["TypeScript", "Svelte", "CSS / SCSS", "CI/CD"]
       },
       {
-        "id": "exp-2",
+        "id": "exp-dgfip",
         "company": "DGFiP (Direction Générale des Finances Publiques)",
         "role": "Ingénieure Logiciel (Apprentissage)",
-        "location": "France",
-        "period": "2020 — 2023",
-        "summary": "Conception et développement d’outils internes dans un environnement étatique à grande échelle. J’y ai appris les méthodes de travail professionnelles tout en livrant du code prêt pour la production. Cette expérience a renforcé mes bases en architecture logicielle, tests, documentation et maintenabilité à long terme.",
+        "location": "Nantes, France",
+        "period": "Septembre 2020 — Septembre 2023",
+        "summary": "Au sein du département des techniques transverses, j'ai contribué au développement d’outils internes et à des missions de veille technologique. J’ai consolidé mes bases en développement web (HTML, CSS, JavaScript) et acquis de nouvelles compétences avec Bootstrap et Vue.js. J’ai également élargi mon périmètre vers l’analyse de données en apprenant Python, NumPy, Pandas et les outils de visualisation. J’ai participé au développement d’une application mobile interne avec Flutter. Pour mon projet de fin d’études, j’ai conçu et livré un proof-of-concept de serious game sur le Numérique Responsable, mêlant créativité, pédagogie et ingénierie.",
         "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Vue.js",
+          "Bootstrap",
           "Python",
-          "Développement Web",
-          "Unity",
-          "C#"
+          "Flutter"
         ]
       }
     ]
@@ -81,7 +79,13 @@
         "id": "proj-1",
         "name": "Tempo Pose",
         "description": "A figure-drawing timer application built for artists. Simple, distraction-free interface with custom session presets, keyboard shortcuts, and a smooth, elegant UI. Designed to help creatives practice gesture drawing and maintain flow.",
-        "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
+        "technologies": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Zustand"
+        ],
         "url": "",
         "repoUrl": "",
         "highlight": true,
@@ -91,7 +95,13 @@
         "id": "proj-2",
         "name": "Expense Tracker",
         "description": "A full-stack personal finance tracker designed as a real-world engineering exercise. Includes a Supabase-hosted PostgreSQL database, a NestJS-style backend structure, and a clean, modern frontend with authentication, categories, transaction logging, and analytics.",
-        "technologies": ["Next.js", "TypeScript", "Supabase", "Prisma", "Bruno (API tests)"],
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Prisma",
+          "Bruno (API tests)"
+        ],
         "url": "",
         "repoUrl": "",
         "highlight": false,
@@ -103,7 +113,13 @@
         "id": "proj-1",
         "name": "Tempo Pose",
         "description": "Une application de timer pour le dessin de modèle vivant, pensée pour les artistes. Interface simple et sans distraction, avec des présélections de sessions, des raccourcis clavier et une UI fluide et élégante. Conçue pour aider les créatifs à pratiquer le croquis rapide et à rester dans le flow.",
-        "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Zustand"],
+        "technologies": [
+          "React",
+          "Next.js",
+          "TypeScript",
+          "Tailwind CSS",
+          "Zustand"
+        ],
         "url": "",
         "repoUrl": "",
         "highlight": true,
@@ -113,7 +129,13 @@
         "id": "proj-2",
         "name": "Expense Tracker",
         "description": "Une application de suivi de dépenses full-stack, pensée comme un exercice d’ingénierie réaliste. Base PostgreSQL hébergée sur Supabase, backend structuré façon NestJS et frontend moderne avec authentification, catégories, enregistrement des transactions et vues analytiques.",
-        "technologies": ["Next.js", "TypeScript", "Supabase", "Prisma", "Bruno (tests d’API)"],
+        "technologies": [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Prisma",
+          "Bruno (tests d’API)"
+        ],
         "url": "",
         "repoUrl": "",
         "highlight": false,

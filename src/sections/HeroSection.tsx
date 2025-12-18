@@ -23,6 +23,10 @@ export function HeroSection({ about }: HeroSectionProps) {
         >
           {about.name}
         </h1>
+        <p className="text-sm font-medium text-slate-400 mt-2">
+          {about.location}
+        </p>
+
         <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-300 md:text-base">
           {about.summary}
         </p>
@@ -41,5 +45,3 @@ export function HeroSection({ about }: HeroSectionProps) {
     </section>
   );
 }
-
-

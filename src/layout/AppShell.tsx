@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
-import { useLanguage } from "../../i18n/LanguageContext";
-import { supportedLanguages } from "../../i18n/messages";
-import { useTranslations } from "../../i18n/useTranslations";
+import { useLanguage } from "../i18n/LanguageContext";
+import { supportedLanguages } from "../i18n/messages";
+import { useTranslations } from "../i18n/useTranslations";
 
 type AppShellProps = {
   children: ReactNode;
@@ -64,11 +64,11 @@ export function AppShell({ children }: AppShellProps) {
         <main className="flex flex-1 flex-col gap-24">{children}</main>
 
         <footer className="border-t border-slate-800 pt-6 text-xs text-slate-500">
-          <p>© {new Date().getFullYear()} Victoire Schubert. All rights reserved.</p>
+          <p>
+            © {new Date().getFullYear()} Victoire Schubert. All rights reserved.
+          </p>
         </footer>
       </div>
     </div>
   );
 }
-
-
