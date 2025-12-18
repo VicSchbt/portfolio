@@ -24,7 +24,7 @@ export function ContactSection({ contact }: ContactSectionProps) {
       <div className="flex flex-col gap-6 rounded-2xl border border-slate-800 bg-slate-900/40 p-6 md:flex-row md:items-center md:justify-between">
         <div className="space-y-2 text-sm text-slate-300">
           <p>
-            Based in <span className="font-medium text-slate-100">{contact.location}</span>
+            Based in <span className="font-medium">{contact.location}</span>
           </p>
           <p>
             {t.contact.emailIntro}{" "}
