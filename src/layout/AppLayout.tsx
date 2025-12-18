@@ -1,15 +1,12 @@
 import type { ReactNode } from "react";
-import { useLanguage } from "../i18n/LanguageContext";
-import { supportedLanguages } from "../i18n/messages";
-import { useTranslations } from "../i18n/useTranslations";
+import LanguageToggle from "../components/LanguageToggle";
+import NavBar from "../components/NavBar";
 
 type AppLayoutProps = {
   children: ReactNode;
 };
 
 const AppLayout = ({ children }: AppLayoutProps) => {
-  const { language, setLanguage } = useLanguage();
-  const t = useTranslations();
 
   return (
     <div className="min-h-screen">
@@ -21,43 +18,8 @@ const AppLayout = ({ children }: AppLayoutProps) => {
             </span>
           </div>
           <div className="flex items-center gap-4">
-            <nav className="hidden gap-6 text-sm text-slate-300 sm:flex">
-              <a
-                href="#projects"
-                className="hover:text-accent transition-colors"
-              >
-                {t.navigation.work}
-              </a>
-              <a
-                href="#experience"
-                className="hover:text-accent transition-colors"
-              >
-                {t.navigation.experience}
-              </a>
-              <a
-                href="#contact"
-                className="hover:text-accent transition-colors"
-              >
-                {t.navigation.contact}
-              </a>
-            </nav>
-            <div className="inline-flex items-center gap-1 rounded-full border border-slate-800 bg-slate-900 px-1 py-0.5 text-xs">
-              {supportedLanguages.map((langCode) => (
-                <button
-                  key={langCode}
-                  type="button"
-                  onClick={() => setLanguage(langCode)}
-                  className={`rounded-full px-2 py-0.5 transition-colors ${
-                    language === langCode
-                      ? "bg-slate-100 text-slate-900"
-                      : "text-slate-300 hover:text-accent"
-                  }`}
-                  aria-pressed={language === langCode}
-                >
-                  {langCode.toUpperCase()}
-                </button>
-              ))}
-            </div>
+            <NavBar />
+            <LanguageToggle />
           </div>
         </header>
 
