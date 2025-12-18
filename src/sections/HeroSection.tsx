@@ -1,5 +1,6 @@
 import type { About } from "../types/portfolio";
 import { useTranslations } from "../i18n/useTranslations";
+import ProfilePicture from "../components/ProfilePicture";
 
 type HeroSectionProps = {
   about: About;
@@ -13,30 +14,31 @@ export function HeroSection({ about }: HeroSectionProps) {
       aria-labelledby="hero-title"
       className="grid gap-8 md:grid-cols-[minmax(0,3fr)_minmax(0,2fr)] md:items-center"
     >
-      <div>
-        <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent">
-          {about.title}
-        </p>
+      <div className="flex flex-col items-center justify-center">
+        <p className="font-yellowtail text-pink-600 text-8xl">Hello</p>
         <h1
           id="hero-title"
-          className="mt-4 text-4xl font-semibold tracking-tight text-slate-50 md:text-5xl"
+          className="font-mono mt-4 font-semibold tracking-tight text-xl"
         >
           {about.name}
         </h1>
-        <p className="text-sm font-medium text-slate-400 mt-2">
-          {about.location}
+        {/* <p className="text-sm font-medium uppercase tracking-[0.2em] ">
+          {about.title}
         </p>
+        <p className="text-sm font-medium  mt-2">{about.location}</p> */}
 
-        <p className="mt-6 max-w-xl text-sm leading-relaxed text-slate-300 md:text-base">
+        <p className="font-mono mt-6 max-w-xl text-sm leading-relaxed  md:text-base text-center">
           {about.summary}
         </p>
       </div>
 
+      <ProfilePicture />
+
       <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-6 shadow-soft-glow backdrop-blur">
-        <p className="text-xs font-medium uppercase tracking-[0.2em] text-slate-400">
+        <p className="text-xs font-medium uppercase tracking-[0.2em] ">
           {t.hero.focusLabel}
         </p>
-        <ul className="mt-4 space-y-2 text-sm text-slate-200">
+        <ul className="mt-4 space-y-2 text-sm ">
           {t.hero.focusItems.map((item) => (
             <li key={item}>{item}</li>
           ))}

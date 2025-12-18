@@ -2,6 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Yellowtail";
+  src: url("/fonts/Yellowtail-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* Background Colors */
+  --color-background: #020617;
+  --color-foreground: #e2e8f0;
+
+  /* Accent Colors */
+  --color-accent: #38bdf8;
+  --color-accent-muted: #0ea5e9;
+
+  /* Slate Colors (for consistency) */
+  --color-slate-50: #f8fafc;
+  --color-slate-200: #e2e8f0;
+  --color-slate-300: #cbd5e1;
+  --color-slate-400: #94a3b8;
+  --color-slate-800: #1e293b;
+  --color-slate-900: #0f172a;
+
+  /* Border Colors */
+  --color-border: #1e293b;
+  --color-border-accent: rgba(56, 189, 248, 0.4);
+}
+
 html,
 body,
 #root {
@@ -9,7 +47,10 @@ body,
 }
 
 body {
-  @apply bg-background text-foreground antialiased;
+  margin: 0;
+  background-color: #f5f1e8; /* warm white / light beige */
+  background-image: url("/textures/noise.png");
+  background-repeat: repeat;
+  background-size: 200px 200px; /* or smaller for finer grain */
+  @apply text-slate-800;
 }
-
-

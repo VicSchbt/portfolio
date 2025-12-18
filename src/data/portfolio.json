@@ -1,13 +1,13 @@
 {
   "about": {
     "en": {
-      "name": "Victoire Schubert",
+      "name": "My name is Victoire",
       "location": "Lille, France",
       "title": "Software Engineer • Frontend & Creative Development",
       "summary": "I’m a French software engineer who builds thoughtful, human-centered digital experiences. With strong expertise in frontend development and a growing focus on creative coding (Three.js, WebGL, animations), I love turning ideas into intuitive, elegant interfaces. I value clean architecture, collaboration with design teams, and crafting products that are both useful and a pleasure to use."
     },
     "fr": {
-      "name": "Victoire Schubert",
+      "name": "Je m'appelle Victoire",
       "location": "Lille, France",
       "title": "Ingénieure logiciel • Frontend & Creative Development",
       "summary": "Je suis une ingénieure logiciel française qui conçoit des expériences numériques centrées sur l’humain. Spécialisée en développement frontend et de plus en plus orientée vers le creative coding (Three.js, WebGL, animations), j’aime transformer des idées en interfaces intuitives et élégantes. J’attache beaucoup d’importance à une architecture propre, à la collaboration avec les équipes design et à la création de produits à la fois utiles et agréables à utiliser."

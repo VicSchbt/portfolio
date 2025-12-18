@@ -5,7 +5,7 @@ type ExperienceSectionProps = {
   experience: ExperienceItem[];
 };
 
-export function ExperienceSection({ experience }: ExperienceSectionProps) {
+export const ExperienceSection = ({ experience }: ExperienceSectionProps) => {
   const t = useTranslations();
 
   return (
@@ -44,9 +44,7 @@ export function ExperienceSection({ experience }: ExperienceSectionProps) {
               <p className="text-xs text-slate-400">{item.period}</p>
             </header>
 
-            <p className="mt-3 text-sm text-slate-300">
-              {item.summary}
-            </p>
+            <p className="mt-3 text-sm text-slate-300">{item.summary}</p>
 
             <ul className="mt-4 flex flex-wrap gap-2 text-[0.7rem] text-slate-300">
               {item.technologies.map((tech) => (
@@ -63,6 +61,4 @@ export function ExperienceSection({ experience }: ExperienceSectionProps) {
       </ol>
     </section>
   );
-}
-
-
+};

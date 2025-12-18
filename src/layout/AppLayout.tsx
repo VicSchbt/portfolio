@@ -3,20 +3,20 @@ import { useLanguage } from "../i18n/LanguageContext";
 import { supportedLanguages } from "../i18n/messages";
 import { useTranslations } from "../i18n/useTranslations";
 
-type AppShellProps = {
+type AppLayoutProps = {
   children: ReactNode;
 };
 
-export function AppShell({ children }: AppShellProps) {
+const AppLayout = ({ children }: AppLayoutProps) => {
   const { language, setLanguage } = useLanguage();
   const t = useTranslations();
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen">
       <div className="mx-auto flex max-w-5xl flex-col gap-24 px-6 py-10 md:px-10 md:py-16">
         <header className="flex items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <span className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+            <span className=" font-semibold font-mono tracking-[0.2em] text-pink-600">
               Portfolio
             </span>
           </div>
@@ -72,3 +72,5 @@ export function AppShell({ children }: AppShellProps) {
     </div>
   );
 }
+
+export default AppLayout;
